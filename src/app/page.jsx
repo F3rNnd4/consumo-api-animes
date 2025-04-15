@@ -12,16 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <AnimeList />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://github.com/F3rNnd4"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Feito por Fernanda Alves
-        </a>
-      </footer>
+      
     </div>
   );
 }

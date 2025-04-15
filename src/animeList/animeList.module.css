@@ -5,16 +5,9 @@
   font-family: Arial, sans-serif;
 }
 
-.title {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
 .filmGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -64,11 +57,27 @@
 
 .animesType,
 .source,
-.episodes,
-.rank {
+.episodes {
   font-size: 0.9rem;
   color: #555;
   margin-bottom: 5px;
+}
+
+.rank {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.rank:hover {
+  background-color: #218838;
 }
 
 .loading,
