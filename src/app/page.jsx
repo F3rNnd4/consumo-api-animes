@@ -1,3 +1,4 @@
+import AnimeList from "@/animeList";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        
+        <AnimeList />
       </main>
 
       <footer className={styles.footer}>
